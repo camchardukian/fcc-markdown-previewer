@@ -7,7 +7,7 @@ const MarkdownProvider = props => {
 
   const handleSetEditorContent = (value) => {
     console.log('hiii', value)
-    setEditorContent(value)
+    // setEditorContent(value)
   }
 
   return (
@@ -15,6 +15,7 @@ const MarkdownProvider = props => {
       value={{
         handleSetEditorContent,
         editorContent,
+        setEditorContent,
       }}
     >
       {props.children}
