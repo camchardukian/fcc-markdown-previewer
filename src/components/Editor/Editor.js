@@ -2,7 +2,6 @@ import React, { useContext } from 'react'
 import { MarkdownContext } from '../../providers/MarkdownProvider';
 
 const Editor = () => {
-  // console.log('hoooo', MarkdownContext)
   const { editorContent, handleSetEditorContent } = useContext(MarkdownContext);
   return (
     <div>
