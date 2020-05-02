@@ -6,8 +6,7 @@ const MarkdownProvider = props => {
   const [editorContent, setEditorContent] = useState('I am the default Text');
 
   const handleSetEditorContent = (value) => {
-    console.log('hiii', value)
-    // setEditorContent(value)
+    setEditorContent(value)
   }
 
   return (
