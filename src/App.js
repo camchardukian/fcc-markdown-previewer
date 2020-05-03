@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       <MarkdownProvider>
         <header className="App-header">
-          <p>This is my app.</p>
           <MarkdownPage />
         </header>
       </MarkdownProvider>
