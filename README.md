@@ -1,3 +1,5 @@
+This is the 2nd project of [FreeCodeCamp's front-end libraries curriculum](https://www.freecodecamp.org/learn). While I've been employed as a full-time software developer since August 2019, I'm currently doing this certification on the side to further improve my skills.
+___
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
